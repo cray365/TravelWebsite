@@ -1,0 +1,83 @@
+.footer{
+    margin-top: 6%;
+}
+
+.footer-container{
+    margin-left: 10%;
+    margin-right: 10%; 
+    margin-bottom: 0; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}  
+
+.footer-menu{
+    flex: 1;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-footer{
+    font-size: 24px;
+}
+
+
+.icon-footer-insta{
+    font-size: 24px;
+    margin-left: 15%;
+}
+
+.footer-menu-title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.footer-menu-submenu{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:bold;
+    font-size: 18px;
+    color: #53525E;
+}
+
+.footer-img img{
+    height: auto;
+    width: 37%;
+}
+
+
+.trademark{
+    display: flex;
+    justify-content:center;
+    margin: 2.77%;
+}
+
+.footer-logo{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.footer-logo-address{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:bold;
+    font-size: 16px;
+    color: #53525E;
+}
+
+.logo{
+    font-size: 24px;
+}
+
+.logo-margin{
+    margin-left: 10%;
+}
+
+.trademark-name{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:bold;
+    font-size: 16px;
+    color: #53525E;
+}

@@ -1,0 +1,81 @@
+.review{
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.review-container{
+    margin: 0 10% 0 10%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    color: #262730;
+}
+
+.review-title{
+    flex: 0.5;
+}
+
+.review-customer{
+    flex: 1;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.review-customer-img1{
+    width: 15%;
+    background-image: url(person1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 24px;
+}
+
+.review-customer-img2{
+    width: 15%;
+    background-image: url(person2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 36px;
+}
+.review-customer-img3{
+    width: 15%;
+    background-image: url(person3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 36px;
+}
+.review-customer-text{
+    width: 95%;
+    color: #535259;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 19px;
+    padding-left: 2%;
+}
+
+.Name{
+    font-size: 19px;
+    font-weight:600;
+}
+
+.icon-color{
+    color: gold;
+    margin: 0.5% 0.25%;
+    font-size:medium;
+}
+
+.Star-number{
+    font-size: 16px;
+}
+
+hr{
+    margin-top: 5%;
+    border-top: 1px solid #D4D4D4;
+}

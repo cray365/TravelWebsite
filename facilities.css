@@ -1,0 +1,133 @@
+.facilities{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+/*********************************TITLE*************************************/
+.facilities-hero{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    color: #262730;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.facilities-hero-text-title{
+    flex:2;
+}
+
+.facilities-hero-temp{
+    flex: 1;
+}
+
+
+.facilities-main{
+    flex: 5;
+}
+/*****************************TITLE OVER***************************/
+
+/****************************Image*******************************/
+.facilities-main{
+    display: flex;
+    flex-direction: row;
+}
+
+.facilities-main-image{
+    flex: 1;
+}
+
+.facilities-main-image-src{
+    background-image: url(customer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    margin: 5%;
+}
+
+/*****************************************Image Over**************************************/
+
+/****************************************MAIN TEXT****************************************/
+.facilities-main-text{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+
+.facilities-main-text-para{
+    flex:1;
+    color: #535259;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 19px;
+    width: 100%;
+    padding-top: 9%;
+
+}
+
+/*************************************Main Text Over***************************************/
+
+/*************************************Bullet Points****************************************/
+
+.facilities-main-text-points{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    justify-content: space-evenly;
+    padding: 10% 0 10% 0;
+}
+
+.icon {
+    color: #4094C1;
+}
+
+/******************************Bullet Points end*****************************************/
+
+.facilities-main-text-button{
+    flex: 2;
+}
+
+.facilities-main-text-button input{
+    background-color:#4094C1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 19px;
+    font-weight: lighter;
+    padding: 1% 3%;
+    border-radius: 36px;
+    border: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

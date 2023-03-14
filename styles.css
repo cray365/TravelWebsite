@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*header***********************************************************************************************/
+.logo-img{
+    width: 25%;
+}
+
+header{
+    display: flex;
+    top: 1%;
+    justify-content: space-between;
+    flex: 1 1 1;
+    align-items: center;
+    padding: 4%;
+    height: 5vh;
+    position: absolute;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.nav-section{
+    width: 100%;
+}
+
+.nav-section ul {
+    text-align: center;
+}
+
+.nav-section {
+    text-align: center;
+}
+
+.right-overide{
+    text-align: right;
+}
+
+.left-overide{
+    text-align: left;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    margin: 5%;
+}
+
+.nav-links li a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 35px;
+    color: rgb(2, 157, 171);
+    text-decoration: none;
+}
+
+.cta button{
+    background-color: white;
+    padding: 4% 15%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(6, 154, 208);
+    border-style: none;
+    border-radius: 30px;
+}
+
+/*header OVER*******************************************************************************************************************/
+
+/******************Background Image of mountain*****************************************************************************/
+.banner-page{
+    background-image: url(mountain.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

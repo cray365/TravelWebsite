@@ -1,0 +1,170 @@
+/***************************************************TITLE***************************************************/
+
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.testimonial-title{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.testimonial-title p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    color: #262730;
+    flex:1;
+}
+
+.testimonial-content{
+    flex: 7;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/*************************************************TITLE*************************************************/
+
+
+/**************************************************TITLE INFO****************************************/
+.testimonial-pictures{
+    flex: 1;
+}
+
+.testimonial-info{
+    flex: 1;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-info-type{
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    color: #535259;
+    padding-top: 9%;
+    flex: 1;
+    width: 100%;
+}
+
+.testimonial-info-type p span{
+    color: #4094C0;
+}
+
+/****************************************TITLE INFO***********************************************/
+/****************************************TITLE INFO NUMERICS************************************/
+
+.testimonial-info-stats{
+    flex: 2;
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-item{
+    border-style:solid;
+    border-color: #F0F0F0;
+}
+
+.first{
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    padding-left: 30%;
+    padding-top: 10%;
+}
+
+.second{
+    padding-left: 30%;
+    padding-top: 10%;
+    border:none;
+}
+
+
+.third{
+    padding-left: 30%;
+    padding-top: 10%;
+    border-left: none;
+    border-bottom: none;
+}
+
+.fourth{
+    padding-left: 30%;
+    padding-top: 10%;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.Numerics{
+    font-family: 'Tilt Warp', cursive;
+    color: #4094C1;
+    font-size: 48px;
+    font-weight:lighter;
+}
+
+.Info{
+    font-family: 'Raleway', sans-serif;
+}
+
+/****************************************TITLE INFO NUMERICS************************************/
+/*****************************************TESTIMONIAL PICS**************************************/
+.testimonial-pictures{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5%;
+}
+
+.testimonial-pictures img{
+    margin-top: 9%;
+    margin-left:2%;
+    margin-right: auto;
+    width: 40%;
+    position: absolute;
+    z-index: -1;
+}
+
+.img1{
+    background-image: url(Img1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 10%;
+    border-radius: 36px;
+    margin-bottom: 1%;
+}
+
+.img2{
+   background-image: url(Img2.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   margin: 10%; 
+   border-radius: 36px;
+   margin-top: 1%;
+}
+
+.img3{
+    background-image: url(Img3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 10%;
+    border-radius: 36px;
+    margin-bottom: 1%;
+}
+
+.img4{
+    background-image: url(img4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 10%;
+    border-radius: 36px;
+    margin-top: 1%;
+}

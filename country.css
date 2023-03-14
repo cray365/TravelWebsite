@@ -1,0 +1,89 @@
+.country{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;   
+}
+
+.country-hero-text{
+    flex: 1;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    color: #262730;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.country-hero-text-title{
+    flex: 1.5;
+}
+
+.country-hero-text-temp{
+    flex: 1;
+}
+
+.country-cards{
+    flex: 7;
+    margin: 2% 5% 0% 7.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.country-cards-1{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.country-cards-2{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.japan{
+    flex: 2;
+    background-image: url(japan.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.paris{
+    flex: 1;
+    background-image: url(paris.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.malaysia{
+    flex: 1;
+    background-image: url(malaysia.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.istanbul{
+    flex: 3;
+    background-image: url(istanbul.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card{
+    margin: 1%;
+    border-radius: 36px;
+}
+
+.zurich{
+    flex: 1;
+    background-image: url(zurich.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
